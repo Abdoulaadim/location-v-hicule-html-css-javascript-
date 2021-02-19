@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Css.css" type="text/css" media="screen" />
+
+    <script type="text/javascript" src="function.js"></script>
+
+    <script src="alert.js"></script>
+
+
+
+
+</head>
+
+<body class="bodys">
+    <div class="navbar">
+        <div class="navbar-left">
+            <img src="image/file2.png" alt="logo" class="logo" />
+        </div>
+        <div class="navbar-right">
+            <a href="index.html">Accueil</a>
+            <a href="gallerie.html">Gallerie</a>
+            <a href="Réservation.html">Réservation</a>
+            <a href="Contact.html" class="selected"> Contact</a>
+
+        </div>
+    </div>
+
+    <div class="div-contact">
+
+        <div class="container">
+            <form action="/contact">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">Nom</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="Nom" name="Nom" placeholder="Nom">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Email</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="Email" name="Email" placeholder="Email">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Sujet</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="Sujet" name="Sujet" placeholder="Sujet">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label>Message</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="message" name="message" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-75">
+                        <input type="submit" value="Submit" onclick="afficher()">
+                    </div>
+                </div>
+            </form>
+            <span id="afficher"></span>
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="lis1">
+            <ul class="ul1">
+                <li> <a href="#" class="lien-footer">Besoin d'aide</a> </li>
+                <li><a href="#" class="lien-footer">Nous contacter</a></li>
+                <li><a href="#" class="lien-footer">Condition générales</a></li>
+                <li><a href="#" class="lien-footer">Plant de site </a></li>
+                <li><a href="#" class="lien-footer">Nos bon plans</a></li>
+            </ul>
+
+
+
+            <ul class="ul2">
+                <li> <a href="#" class="lien-footer">Recrutement AVIS</a> </li>
+                <li><a href="#" class="lien-footer">Nos voiture de location</a></li>
+                <li><a href="#" class="lien-footer">Nos partenaires </a></li>
+                <li><a href="#" class="lien-footer">Programme de fidélité</a></li>
+                <li><a href="#" class="lien-footer">Besoin d'une offre</a></li>
+            </ul>
+
+            <ul class="ul2">
+                <li> <a href="#" class="lien-footer">Aéropot véhicule</a> </li>
+                <li><a href="#" class="lien-footer">Ville  véhicule</a></li>
+                <li><a href="#" class="lien-footer">Véhicule de location</a></li>
+                <li><a href="#" class="lien-footer">Condition de véhicule</a></li>
+                <li><a href="#" class="lien-footer">Informations de véhicule</a></li>
+            </ul>
+        </div>
+
+        <P>Copyright @2021 Maroc AVIS . Tous les droits sont réservés</P>
+        <div class="flex-container1">
+            <div> <img src="image/facebook-circle-line.png" alt="icone-footer" /> </div>
+            <div> <img src="image/instagram-line.png" alt="icone-footer" /></div>
+            <div> <img src="image/twitter-line.png" alt="icone-footer" /></div>
+            <div> <img src="image/linkedin-box-line.png" alt="icone-footer" /></div>
+        </div>
+
+    </div>
+</body>
+
+</html>
